@@ -1,0 +1,12 @@
+category: ALTA
+password_min_length: 14
+mfa_admin: yes
+log_retention_days: 400
+patch_max_age_days: 10
+disk_encryption: yes
+tls_min_version: 1.3
+backup_frequency_days: 1
+admin_accounts_shared: no
+risk_analysis_date: 2026-09-15
+incident_register: yes
+time_sync: yes

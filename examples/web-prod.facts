@@ -1,0 +1,13 @@
+# Customer portal, production
+category: MEDIA
+password_min_length: 8
+mfa_admin: no
+log_retention_days: 30
+patch_max_age_days: 75
+disk_encryption: no
+tls_min_version: 1.0
+backup_frequency_days: 7
+admin_accounts_shared: yes
+risk_analysis_date: 2024-05-01
+incident_register: no
+time_sync: yes

@@ -1,0 +1,10 @@
+category: BASICA
+password_min_length: 10
+mfa_admin: yes
+log_retention_days: 120
+patch_max_age_days: 45
+tls_min_version: 1.2
+backup_frequency_days: 3
+admin_accounts_shared: no
+risk_analysis_date: 2026-03-01
+time_sync: yes

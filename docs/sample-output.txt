@@ -1,0 +1,21 @@
+3 files, 10 findings
+HIGH     ENS002 web-prod.facts:4
+         administrators do not use MFA (op.acc.6)
+HIGH     ENS005 web-prod.facts:7
+         no disk encryption (mp.info.3)
+HIGH     ENS006 web-prod.facts:8
+         minimum TLS version is 1.0, expected 1.2 or higher (mp.com.3)
+HIGH     ENS008 web-prod.facts:10
+         administrator accounts are shared between people (op.acc.1)
+MEDIUM   ENS001 web-prod.facts:3
+         password minimum length is 8, ENS MEDIA expects at least 12 (op.acc.5)
+MEDIUM   ENS003 web-prod.facts:5
+         log retention in days is 30, ENS MEDIA expects at least 180 (op.exp.8)
+MEDIUM   ENS004 web-prod.facts:6
+         oldest unapplied patch in days is 75, ENS MEDIA expects at most 30 (op.exp.4)
+MEDIUM   ENS007 web-prod.facts:9
+         backup interval in days is 7, ENS MEDIA expects at most 1 (mp.info.9)
+MEDIUM   ENS009 web-prod.facts:11
+         risk analysis dated 2024-05-01 is older than 12 months (op.pl.1)
+MEDIUM   ENS010 web-prod.facts:12
+         no incident register (op.exp.7)
